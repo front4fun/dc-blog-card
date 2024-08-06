@@ -1,0 +1,104 @@
+body {
+  width: auto;
+  height: 100%;
+  background-color: #20293a;
+  margin: auto;
+}
+
+/*
+ * font styles
+ */
+.sora {
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/* font-size */
+.fs-18 { font-size: 1.125rem; }
+.fs-14 { font-size: .875rem; }
+.fs-12 { font-size: .75rem; }
+.fs-10 { font-size: .625rem; }
+/* font-weight */
+.fw-100 { font-weight: 100; }
+.fw-200 { font-weight: 200; }
+.fw-200 { font-weight: 300; }
+.fw-400 { font-weight: 400; }
+.fw-600 { font-weight: 600; }
+.fw-800 { font-weight: 800; }
+
+/*
+ * Colors
+ */
+.fc-purple { color: #883AE1; }
+.fc-light-purple { color: #e6d6fc; }
+.fc-light-grey { color: #e5eaf0; }
+.fc-soft-white { color: #fafaf9; }
+.fc-white { color: #fff; }
+.fc-black { color: #20293a; }
+.fc-dark-grey { color: #6c727f; }
+
+.bg-purple { background-color: #883AE1; }
+.bg-light-purple { background-color: #e6d6fc; }
+.bg-light-grey { background-color: #e5eaf0; }
+.bg-soft-white { background-color: #fafaf9; }
+.bg-white { background-color: #fff; }
+.bg-black { background-color: #20293a; }
+.bg-dark-grey { background-color: #6c727f; }
+
+/*
+ * utils
+ */
+.hidden { visibility: hidden; }
+.radius-8 { border-radius: 8px; }
+.radius-16 { border-radius: 16px; }
+.txt-trans-cap { text-transform: capitalize; }
+/* shadow */
+.shadow { 
+  -webkit-box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05); 
+  -moz-box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05); 
+  box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
+}
+
+/*
+ * card
+ */
+.card {
+  padding: 16px 16px 20px;
+  max-width: 368px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card-image {
+  overflow: hidden;
+  max-height: 152px;
+  display: flex;
+  flex-flow: column;
+}
+.card-image .card--img {
+  max-height: 152px;
+}
+
+.card-tags { 
+  display: flex; 
+  flex-flow: row;
+  flex-wrap: wrap;
+  margin-right: 1rem;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  row-gap: 6px;
+  column-gap: 6px;
+}
+.card-tags .tag {
+  padding: 6px 1rem;
+}
+
+.card .card-title {
+  padding-bottom: 6px;
+}
+
+.card .card-description {
+  padding-bottom: 20px;
+}
