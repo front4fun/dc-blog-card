@@ -54,9 +54,9 @@ body {
 .txt-trans-cap { text-transform: capitalize; }
 /* shadow */
 .shadow { 
-  -webkit-box-shadow: 0px 30px 100px 0px rgba(32, 41, 58, 0.5); 
-  -moz-box-shadow: 0px 30px 100px 0px rgba(32, 41, 58, 0.5); 
-  box-shadow: 0px 30px 100px 0px rgba(32, 41, 58, 0.5);
+  -webkit-box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05); 
+  -moz-box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05); 
+  box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
 }
 
 /*
